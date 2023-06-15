@@ -20,18 +20,18 @@ class DaftarProdukSeeder extends Seeder
         ]);
         $produk->save();
 
-        $gimbap = new DaftarProduk();
-        $gimbap->fill([
+        $produk = new DaftarProduk();
+        $produk->fill([
             'nama' => 'Whiskas',
             'harga' => 20000
         ]);
-        $gimbap->save();
+        $produk->save();
 
-        $ramyeon = new DaftarProduk();
-        $ramyeon->fill([
+        $produk = new DaftarProduk();
+        $produk->fill([
             'nama' => 'Cat Choize',
             'harga' => 17000
         ]);
-        $ramyeon->save();
+        $produk->save();
     }
 }

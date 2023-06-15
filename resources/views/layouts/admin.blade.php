@@ -113,7 +113,9 @@
         </nav>
 
         <aside class="main-sidebar sidebar-light-primary elevation-4">
-            <a href="{{ route('admin.dashboard') }}" class="brand-link"><span class="brand-text font-weight-light">PETSHOP</span></a>
+            <a href="{{ route('admin.dashboard') }}" class="brand-link">
+                <img src="\assets\vendor\adminlte\dist\img\petshop_logo.png" alt="petshop_logo" class="brand-image img-circle elevation-3" style="">
+                <span class="brand-text font-weight-light"><h4>PETSHOP</h4></span></a>
             <div class="sidebar d-flex flex-column" style="height:90vh;justify-content:space-between">
                 <nav class="mt-2">
                     <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
